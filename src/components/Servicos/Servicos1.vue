@@ -1,31 +1,32 @@
 <template>
-  <div id="home">
-    <img id="home_1" src="/img/home-1.png" alt="" />
+  <div id="servicos">
+    <img class="servicos_1" src="/img/Lendo-Jornal.png" alt="" />
     <div class="dark-overlay"></div>
     <div class="overlay-text">
-      <div class="txt1">Aceleramos o Crescimento com Marketing Digital</div>
+      <div class="txt1">Cresça com quem sabe o caminho</div>
       <div class="txt2">
-        Descubra os nossos serviços de marketing digital, mentoria e formação à
-        medida que transformaram a vida de mais de 20.000 profissionais de
-        Portugal e Angola.
+        Crescer exige mais do que tentativa e erro. Conte com quem já fez este
+        caminho na prática e sabe como levá-lo mais longe.
       </div>
     </div>
   </div>
 </template>
+
 <script>
 export default {
-  name: "Home_1",
+  name: "Servicos",
 };
 </script>
 
 <style scoped>
-#home {
+#servicos {
   color: aliceblue;
   position: relative;
+  height: 690px;
 }
-#home_1 {
+.servicos_1 {
   width: 100%;
-  height: 520px;
+  height: 690px;
   object-fit: cover;
 }
 
@@ -34,7 +35,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 690px;
   background-color: rgba(0, 0, 0, 0.4);
   pointer-events: none;
   z-index: 0; /* Camada */
