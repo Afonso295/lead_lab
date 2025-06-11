@@ -75,7 +75,7 @@ export default {
 }
 .txt4 {
   justify-content: end;
-  margin-top: -45px;
+  margin-top: -60px;
   color: #00ff88;
   display: flex;
   font-size: 23px;
@@ -83,6 +83,9 @@ export default {
 }
 .check_circle {
   margin-left: 10px;
+  width: auto;
+  height: 30px;
+  margin-top: 3px;
 }
 
 .tabela {

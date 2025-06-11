@@ -106,7 +106,7 @@ export default {
 }
 .img-texto {
   position: absolute;
-  margin-top: 23vh;
+  margin-top: 21vh;
   margin-left: 6vh;
   text-align: left;
   padding: 8px 12px;
@@ -115,7 +115,7 @@ export default {
 }
 .imgul-texto {
   position: absolute;
-  margin-top: 23vh;
+  margin-top: 21vh;
   margin-left: 73vh;
   text-align: left;
   padding: 8px 12px;
