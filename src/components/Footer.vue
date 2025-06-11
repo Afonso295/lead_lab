@@ -47,7 +47,7 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
-  margin-top: 20px;
+  margin-top: 0px;
   align-items: flex-start;
 }
 #footer ul {
@@ -58,8 +58,6 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 #footer li {
   font-size: 14px;
