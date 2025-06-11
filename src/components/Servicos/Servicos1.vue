@@ -1,6 +1,6 @@
 <template>
   <div id="servicos">
-    <img class="servicos_1" src="/img/Lendo-Jornal.png" alt="" />
+    <img class="servicos_1" src="/img/Lendo-jornal.png" alt="" />
     <div class="dark-overlay"></div>
     <div class="overlay-text">
       <div class="txt1">Cresça com quem sabe o caminho</div>
