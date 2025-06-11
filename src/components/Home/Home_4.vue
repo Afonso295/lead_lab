@@ -152,14 +152,19 @@ export default {
 .txt2 {
   font-weight: bold;
   font-size: 23px;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
+  width: fit-content;
+  max-width: 1200px;
 }
 .txt3 {
-  font-size: 20px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 19px;
   color: rgb(17, 255, 124);
 }
 .txt4 {
-  font-size: 20px;
+  font-size: 19px;
 }
 .tabela {
   display: flex;
