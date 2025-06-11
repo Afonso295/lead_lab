@@ -20,7 +20,7 @@ export default {
 
 <style>
 * {
-  font-family: Arial;
+  font-family: "Poppins", sans-serif;
 }
 html,
 body {

@@ -14,17 +14,17 @@
       <ul>
         <div class="cubo">
           <li>
-            <samp>Consultoria</samp
-            ><span
-              >Construímos um plano à medida para definirmos os próximos passos
+            <samp class="txt3">Consultoria<br /></samp
+            ><span class="txt4">
+              Construímos um plano à medida para definirmos os próximos passos
               da sua marca ou projeto.
             </span>
           </li>
         </div>
         <div class="cubo">
           <li>
-            <samp>Tráfego Pago </samp
-            ><span
+            <samp class="txt3">Tráfego Pago<br /></samp
+            ><span class="txt4"
               >Criamos os seus anúncios online 100% otimizados para obter
               melhores resultados com o menor custo.
             </span>
@@ -32,8 +32,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp>Construção de Website</samp
-            ><span
+            <samp class="txt3">Construção de Website<br /></samp
+            ><span class="txt4"
               >Criamos desde websites simples a plataformas de e-commerce à
               medida com equipas multidisciplinares.
             </span>
@@ -43,8 +43,8 @@
       <ul>
         <div class="cubo">
           <li>
-            <samp>Branding</samp
-            ><span
+            <samp class="txt3">Branding<br /></samp
+            ><span class="txt4"
               >Criamos Marcas do zero, construindo uma identidade forte e
               profissional. Já são +90 marcas nos últimos 12 anos.
             </span>
@@ -52,8 +52,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp>E-mail Marketing</samp
-            ><span
+            <samp class="txt3">E-mail Marketing<br /></samp
+            ><span class="txt4"
               >Criamos e implementamos o envio de Newsletters para ativar a sua
               base de clientes internos e externos.
             </span>
@@ -61,8 +61,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp>Mentoria & Mindset</samp
-            ><span
+            <samp class="txt3">Mentoria & Mindset<br /></samp
+            ><span class="txt4"
               >Desenvolvemos mentoria para capacitar profissionais e empresas a
               prosperar no mundo digital.
             </span>
@@ -72,8 +72,8 @@
       <ul>
         <div class="cubo">
           <li>
-            <samp>Design Gráfico </samp
-            ><span
+            <samp class="txt3">Design Gráfico<br /></samp
+            ><span class="txt4"
               >Criamos soluções visuais desde estacionários, flyers, posters,
               stands, roll ups, livros, packaging, merchandising, entre outros.
             </span>
@@ -81,8 +81,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp>SEO e Anúncios </samp
-            ><span
+            <samp class="txt3">SEO e Anúncios<br /></samp
+            ><span class="txt4"
               >Ajudamo-lo a destacar-se nas pesquisas do Google e a aumentar a
               visibilidade nos motores de busca.
             </span>
@@ -90,8 +90,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp>Formação Financiada</samp
-            ><span
+            <samp class="txt3">Formação Financiada<br /></samp
+            ><span class="txt4"
               >Formação gratuita para profissionais que desejam adquirir novas
               competências digitais. Inscrições abertas. Vagas Limitadas.
             </span>
@@ -101,8 +101,8 @@
       <ul>
         <div class="cubo">
           <li>
-            <samp>Gestão de Redes Sociais</samp
-            ><span
+            <samp class="txt3">Gestão de Redes Sociais<br /></samp
+            ><span class="txt4"
               >Gerimos a sua presença profissional nas redes sociais com 3 packs
               "chave na mão" focados em performance.
             </span>
@@ -110,8 +110,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp>Eventos Empresariais </samp
-            ><span
+            <samp class="txt3">Eventos Empresariais<br /></samp
+            ><span class="txt4"
               >Organização total do evento ou presença para criação de conteúdos
               live com fotografia e/ou vídeos c/drone.
             </span>
@@ -119,8 +119,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp>Formação à Medida</samp
-            ><span
+            <samp class="txt3">Formação à Medida<br /></samp
+            ><span class="txt4"
               >Criamos formação 100% prática e atual, desenhada por
               especialistas, experientes e no ativo, que lecionam no ensino
               superior.
@@ -154,6 +154,13 @@ export default {
   font-size: 23px;
   margin-top: 20px;
 }
+.txt3 {
+  font-size: 20px;
+  color: rgb(17, 255, 124);
+}
+.txt4 {
+  font-size: 20px;
+}
 .tabela {
   display: flex;
   flex-wrap: wrap;
@@ -166,7 +173,7 @@ export default {
   padding: 0px;
 }
 .cubo {
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(23, 23, 23);
   border-radius: 20px;
   padding: 15px;
   height: 290px;
