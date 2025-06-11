@@ -143,7 +143,7 @@ export default {
   gap: 20px;
   justify-content: flex-start;
   max-width: 900px;
-  margin-bottom: 20px;
+  margin-bottom: -30px;
 }
 
 .tabela ul {
@@ -153,11 +153,13 @@ export default {
   list-style: none;
   font-size: 20px;
   flex: 1;
+  margin-right: 30px;
 }
 
 .txt_linha {
   font-size: 20px;
   color: rgb(0, 255, 136);
+  font-weight: bold;
 }
 
 .txt1_linha {
