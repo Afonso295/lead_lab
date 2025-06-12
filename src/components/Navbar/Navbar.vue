@@ -31,7 +31,6 @@ export default {
   background-color: black;
   padding: 30px;
   position: relative;
-  font-family: Arial;
   height: 6vh;
 }
 #nav a {
