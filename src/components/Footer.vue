@@ -18,10 +18,42 @@
     </ul>
     <ul>
       <li class="traco">
-        <button class="tracob">insta</button
-        ><button class="tracob">insta</button>
-        <button class="tracob">insta</button>
-        <button class="tracob">insta</button>
+        <a href="https://www.youtube.com/@leadlabdigitalmkt" target="_blank">
+          <img src="/img/Footer/yt.png" alt="Descrição da imagem" width="300" />
+        </a>
+        <a
+          href="https://pt.linkedin.com/company/leadlabdigital"
+          target="_blank"
+        >
+          <img src="/img/Footer/in.png" alt="Descrição da imagem" width="300" />
+        </a>
+        <a href="https://www.instagram.com/leadlabdigitalmkt/" target="_blank">
+          <img
+            src="/img/Footer/insta.png"
+            alt="Descrição da imagem"
+            width="300"
+          />
+        </a>
+        <a
+          href="https://www.facebook.com/filipemonteiromarketing"
+          target="_blank"
+        >
+          <img
+            src="/img/Footer/face.png"
+            alt="Descrição da imagem"
+            width="300"
+          />
+        </a>
+        <a
+          href="https://www.tiktok.com/@leadlabdigitalmkt?_t=8siHufuFb0Q&_r=1"
+          target="_blank"
+        >
+          <img
+            src="/img/Footer/tiktok.png"
+            alt="Descrição da imagem"
+            width="300"
+          />
+        </a>
       </li>
       <li class="butao"><ButaoContacto /></li>
       <li class="autorizacao">
@@ -100,5 +132,10 @@ export default {
 }
 .butao {
   margin-left: 250px;
+}
+.traco a img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
 }
 </style>
