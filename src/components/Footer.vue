@@ -17,9 +17,14 @@
       <li></li>
     </ul>
     <ul>
-      <li class="traco"><button class="tracob">insta</button></li>
-      <li><ButaoContacto /></li>
-      <li>
+      <li class="traco">
+        <button class="tracob">insta</button
+        ><button class="tracob">insta</button>
+        <button class="tracob">insta</button>
+        <button class="tracob">insta</button>
+      </li>
+      <li class="butao"><ButaoContacto /></li>
+      <li class="autorizacao">
         Autorizado pela Lead Lab. Desenvolvido por Afonso Carrasquinho (estágio,
         Vue.js). © 2025
       </li>
@@ -71,9 +76,12 @@ export default {
   padding-bottom: 5px;
   height: 40px;
   width: 100%;
+  display: flex;
 }
 .tracob {
   margin-top: 10px;
+  display: flex;
+  margin-left: auto;
 }
 .termos {
   margin-top: 30px;
@@ -85,5 +93,12 @@ export default {
 }
 .router a {
   color: aliceblue;
+}
+.autorizacao {
+  margin-top: 10px;
+  text-align: end;
+}
+.butao {
+  margin-left: 250px;
 }
 </style>
