@@ -55,11 +55,10 @@ export default {
   display: flex;
   font-size: 20px;
   gap: 80px;
-  justify-content: left;
+  justify-content: center;
   margin-left: -130px;
   flex-grow: 1;
   position: relative;
-  justify-content: center;
   z-index: 1;
 }
 </style>
