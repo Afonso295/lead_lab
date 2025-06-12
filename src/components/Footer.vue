@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import ButaoContacto from "./Navbar/ButaoContacto.vue";
+import ButaoContacto from "./Butoes/ButaoContacto.vue";
 export default {
   name: "Footer",
   components: {
@@ -52,7 +52,7 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
-  margin-top: 0px;
+  padding-top: 80px;
   align-items: flex-start;
 }
 #footer ul {

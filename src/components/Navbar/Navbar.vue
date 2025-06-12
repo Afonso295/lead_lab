@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import ButaoContacto from "../Navbar/ButaoContacto.vue";
+import ButaoContacto from "../Butoes/ButaoContacto.vue";
 export default {
   name: "Navbar",
   components: {

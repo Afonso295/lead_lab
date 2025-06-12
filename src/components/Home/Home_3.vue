@@ -7,6 +7,7 @@
           <br />Conheça a nossa abordagem estratégica para resultados de
           excelência.
         </span>
+        <span><ButaoQueroComecar class="butao" /></span>
       </div>
     </div>
 
@@ -78,8 +79,13 @@
 </template>
 
 <script>
+import ButaoQueroComecar from "../Butoes/ButaoQueroComecar.vue";
+
 export default {
   name: "Home_3",
+  components: {
+    ButaoQueroComecar,
+  },
 };
 </script>
 
@@ -90,8 +96,9 @@ export default {
   color: aliceblue;
   padding: 10px;
   align-items: center;
-  flex-wrap: wrap; /* Para ficar responsivo em ecrãs pequenos */
-  min-height: 100vh; /* ocupar a altura toda da viewport */
+  flex-wrap: wrap;
+  min-height: 100vh;
+  padding-top: 100px;
 }
 
 /* Coluna da esquerda - texto principal */
@@ -164,5 +171,8 @@ export default {
 
 .txt1_linha {
   font-size: 14px;
+}
+.butao {
+  margin-left: -180px;
 }
 </style>

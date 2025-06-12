@@ -8,13 +8,19 @@
         Descubra os nossos serviços de marketing digital, mentoria e formação à
         medida que transformaram a vida de mais de 20.000 profissionais de
         Portugal e Angola.
+        <ButaoQueroComecar />
       </div>
     </div>
   </div>
 </template>
 <script>
+import ButaoQueroComecar from "../Butoes/ButaoQueroComecar.vue";
+
 export default {
   name: "Home_1",
+  components: {
+    ButaoQueroComecar,
+  },
 };
 </script>
 
@@ -51,11 +57,12 @@ export default {
   width: 100%;
   z-index: 2;
   overflow-wrap: break-word;
-  max-width: 1050px;
+  max-width: 1200px;
 }
 
 .txt1 {
   font-size: 70px;
+  margin-top: 90px;
 }
 .txt2 {
   font-size: 27px;

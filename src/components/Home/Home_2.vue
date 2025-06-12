@@ -97,8 +97,8 @@ export default {
   font-size: 23px;
   font-weight: bold;
   text-align: center;
-  max-width: 1050px;
-  margin-left: 150px;
+  max-width: 1250px;
+  margin-left: 49px;
 }
 
 .imgcontainer {
