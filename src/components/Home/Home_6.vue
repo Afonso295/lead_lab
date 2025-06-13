@@ -1,9 +1,7 @@
 <template>
   <div class="home">
-    <span class="txt1">Formação à medida<br /></span>
-    <span class="txt2">
-      Agende uma consulta sem compromisso com um dos nossos especialistas.
-    </span>
+    <div class="txt1">{{ titulo }}</div>
+    <span class="txt2">{{ subtitulo }}</span>
     <ButaoQueroComecar />
   </div>
 </template>
@@ -15,6 +13,17 @@ export default {
   name: "Home:6",
   components: {
     ButaoQueroComecar,
+  },
+  props: {
+    titulo: {
+      type: String,
+      default: "Formação à medida",
+    },
+    subtitulo: {
+      type: String,
+      default:
+        "Agende uma consulta sem compromisso com um dos nossos especialistas.",
+    },
   },
 };
 </script>
@@ -32,6 +41,8 @@ export default {
 }
 .txt2 {
   font-size: 23px;
-  font-weight: bold;
+  max-width: 1100px;
+  display: inline-block;
+  margin: 0 auto;
 }
 </style>
