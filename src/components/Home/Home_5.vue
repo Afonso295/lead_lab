@@ -8,7 +8,7 @@
         Mais de 90 clientes empresariais e 20.000 formandos confiaram em nós.
       </span>
     </div>
-    <img class="img" src="/img/carosel.png" alt="" />
+    <img class="img" src="/img/Home/carosel.png" alt="" />
   </div>
 </template>
 

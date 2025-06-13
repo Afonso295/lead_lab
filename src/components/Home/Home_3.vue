@@ -15,60 +15,78 @@
       <div class="tabela">
         <div class="linha">
           <ul>
-            <li><span class="txt_linha">1. DISCOVERY</span></li>
             <li>
-              <span class="txt1_linha"
-                >Primeira reunião com um levantamento de necessidades do
-                cliente, identificando objetivos.</span
+              <div class="img"><img src="/img/11.png" /></div>
+              <span class="txt_linha">1. DISCOVERY</span>
+            </li>
+            <li>
+              <span class="txt1_linha">
+                Primeira reunião com um levantamento de necessidades do cliente,
+                identificando objetivos.</span
               >
             </li>
           </ul>
           <ul>
-            <li><span class="txt_linha">2. BLUEPRINT</span></li>
             <li>
-              <span class="txt1_linha"
-                >Primeira reunião com um levantamento de necessidades do
-                cliente, identificando objetivos.</span
-              >
+              <div class="img"><img src="/img/12.png" /></div>
+              <span class="txt_linha">2. BLUEPRINT</span>
             </li>
-          </ul>
-        </div>
-        <div class="linha">
-          <ul>
-            <li><span class="txt_linha">3. EXECUTION</span></li>
             <li>
-              <span class="txt1_linha"
-                >Primeira reunião com um levantamento de necessidades do
-                cliente, identificando objetivos.</span
-              >
-            </li>
-          </ul>
-          <ul>
-            <li><span class="txt_linha">4. DELIGHT</span></li>
-            <li>
-              <span class="txt1_linha"
-                >Primeira reunião com um levantamento de necessidades do
-                cliente, identificando objetivos.</span
+              <span class="txt1_linha">
+                Desenvolvimento de uma estratégia de Marketing 360º desenhada à
+                medida.</span
               >
             </li>
           </ul>
         </div>
         <div class="linha">
           <ul>
-            <li><span class="txt_linha">5. ANALYTICS</span></li>
+            <li>
+              <div class="img"><img src="/img/21.png" /></div>
+              <span class="txt_linha">3. EXECUTION</span>
+            </li>
             <li>
               <span class="txt1_linha"
-                >Primeira reunião com um levantamento de necessidades do
-                cliente, identificando objetivos.</span
+                >Operacionalização de uma solução “Chave na mão”, que abrange a
+                execução dos serviços.</span
               >
             </li>
           </ul>
           <ul>
-            <li><span class="txt_linha">6. OPTIMIZATION</span></li>
+            <li>
+              <div class="img"><img src="/img/22.png" /></div>
+              <span class="txt_linha">4. DELIGHT</span>
+            </li>
             <li>
               <span class="txt1_linha"
-                >Primeira reunião com um levantamento de necessidades do
-                cliente, identificando objetivos.</span
+                >Ajudamos os nossos clientes a implementar estratégias de
+                retenção de clientes.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="linha">
+          <ul>
+            <li>
+              <div class="img"><img src="/img/31.png" /></div>
+              <span class="txt_linha">5. ANALYTICS</span>
+            </li>
+            <li>
+              <span class="txt1_linha"
+                >Acompanhamento dos resultados através da análise de métricas
+                chave dos vários canais.</span
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div class="img"><img src="/img/32.png" /></div>
+              <span class="txt_linha">6. OPTIMIZATION</span>
+            </li>
+            <li>
+              <span class="txt1_linha"
+                >Implementação de melhorias com base nos dados que vão sendo
+                recolhidos ao longo da jornada.</span
               >
             </li>
           </ul>
@@ -168,9 +186,21 @@ export default {
   color: rgb(0, 255, 136);
   font-weight: bold;
 }
+.img {
+  display: flex;
+  align-items: flex-start;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.img img {
+  width: 55px;
+  height: 50px;
+  margin-left: 250px;
+  display: flex;
+}
 
 .txt1_linha {
-  font-size: 14px;
+  font-size: 16.7px;
 }
 .butao {
   margin-left: -180px;

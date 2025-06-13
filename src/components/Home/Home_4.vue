@@ -14,7 +14,8 @@
       <ul>
         <div class="cubo">
           <li>
-            <samp class="txt3">Consultoria<br /></samp
+            <div class="img"><img src="/img/1.1.png" /></div>
+            <span class="txt3">Consultoria<br /></span
             ><span class="txt4">
               Construímos um plano à medida para definirmos os próximos passos
               da sua marca ou projeto.
@@ -23,7 +24,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp class="txt3">Tráfego Pago<br /></samp
+            <div class="img"><img src="/img/2.1.png" /></div>
+            <span class="txt3">Tráfego Pago<br /></span
             ><span class="txt4"
               >Criamos os seus anúncios online 100% otimizados para obter
               melhores resultados com o menor custo.
@@ -32,7 +34,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp class="txt3">Construção de Website<br /></samp
+            <div class="img"><img src="/img/3.1.png" /></div>
+            <span class="txt3">Construção de Website<br /></span
             ><span class="txt4"
               >Criamos desde websites simples a plataformas de e-commerce à
               medida com equipas multidisciplinares.
@@ -43,7 +46,8 @@
       <ul>
         <div class="cubo">
           <li>
-            <samp class="txt3">Branding<br /></samp
+            <div class="img"><img src="/img/1.2.png" /></div>
+            <span class="txt3">Branding<br /></span
             ><span class="txt4"
               >Criamos Marcas do zero, construindo uma identidade forte e
               profissional. Já são +90 marcas nos últimos 12 anos.
@@ -52,7 +56,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp class="txt3">E-mail Marketing<br /></samp
+            <div class="img"><img src="/img/2.2.png" /></div>
+            <span class="txt3">E-mail Marketing<br /></span
             ><span class="txt4"
               >Criamos e implementamos o envio de Newsletters para ativar a sua
               base de clientes internos e externos.
@@ -61,7 +66,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp class="txt3">Mentoria & Mindset<br /></samp
+            <div class="img"><img src="/img/3.2.png" /></div>
+            <span class="txt3">Mentoria & Mindset<br /></span
             ><span class="txt4"
               >Desenvolvemos mentoria para capacitar profissionais e empresas a
               prosperar no mundo digital.
@@ -72,7 +78,8 @@
       <ul>
         <div class="cubo">
           <li>
-            <samp class="txt3">Design Gráfico<br /></samp
+            <div class="img"><img src="/img/1.3.png" /></div>
+            <span class="txt3">Design Gráfico<br /></span
             ><span class="txt4"
               >Criamos soluções visuais desde estacionários, flyers, posters,
               stands, roll ups, livros, packaging, merchandising, entre outros.
@@ -81,7 +88,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp class="txt3">SEO e Anúncios<br /></samp
+            <div class="img"><img src="/img/2.3.png" /></div>
+            <span class="txt3">SEO e Anúncios<br /></span
             ><span class="txt4"
               >Ajudamo-lo a destacar-se nas pesquisas do Google e a aumentar a
               visibilidade nos motores de busca.
@@ -90,7 +98,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp class="txt3">Formação Financiada<br /></samp
+            <div class="img"><img src="/img/3.3.png" /></div>
+            <span class="txt3">Formação Financiada<br /></span
             ><span class="txt4"
               >Formação gratuita para profissionais que desejam adquirir novas
               competências digitais. Inscrições abertas. Vagas Limitadas.
@@ -101,7 +110,8 @@
       <ul>
         <div class="cubo">
           <li>
-            <samp class="txt3">Gestão de Redes Sociais<br /></samp
+            <div class="img"><img src="/img/1.4.png" /></div>
+            <span class="txt3">Gestão de Redes Sociais<br /></span
             ><span class="txt4"
               >Gerimos a sua presença profissional nas redes sociais com 3 packs
               "chave na mão" focados em performance.
@@ -110,7 +120,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp class="txt3">Eventos Empresariais<br /></samp
+            <div class="img"><img src="/img/2.4.png" /></div>
+            <span class="txt3">Eventos Empresariais<br /></span
             ><span class="txt4"
               >Organização total do evento ou presença para criação de conteúdos
               live com fotografia e/ou vídeos c/drone.
@@ -119,7 +130,8 @@
         </div>
         <div class="cubo">
           <li>
-            <samp class="txt3">Formação à Medida<br /></samp
+            <div class="img"><img src="/img/3.4.png" /></div>
+            <span class="txt3">Formação à Medida<br /></span
             ><span class="txt4"
               >Criamos formação 100% prática e atual, desenhada por
               especialistas, experientes e no ativo, que lecionam no ensino
@@ -143,7 +155,7 @@ export default {
   color: aliceblue;
   text-align: center;
   padding: 1px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 .txt1 {
   font-weight: bold;
@@ -158,13 +170,13 @@ export default {
 }
 .txt3 {
   display: block;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 15px;
-  font-size: 19px;
+  font-size: 18px;
   color: rgb(17, 255, 124);
 }
 .txt4 {
-  font-size: 19px;
+  font-size: 18px;
 }
 .tabela {
   display: flex;
@@ -178,7 +190,7 @@ export default {
   padding: 0px;
 }
 .cubo {
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(26, 26, 26);
   border-radius: 20px;
   padding: 15px;
   height: 290px;
@@ -186,5 +198,14 @@ export default {
   box-sizing: border-box;
   margin-bottom: 14px;
   list-style: none;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.img img {
+  width: 55px;
+  height: 50px;
+  display: flex;
 }
 </style>

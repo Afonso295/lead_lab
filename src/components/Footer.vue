@@ -19,40 +19,28 @@
     <ul>
       <li class="traco">
         <a href="https://www.youtube.com/@leadlabdigitalmkt" target="_blank">
-          <img src="/img/Footer/yt.png" alt="Descrição da imagem" width="300" />
+          <img src="/img/Footer/yt.png" alt="Youtube" width="300" />
         </a>
         <a
           href="https://pt.linkedin.com/company/leadlabdigital"
           target="_blank"
         >
-          <img src="/img/Footer/in.png" alt="Descrição da imagem" width="300" />
+          <img src="/img/Footer/in.png" alt="Linkedin" width="300" />
         </a>
         <a href="https://www.instagram.com/leadlabdigitalmkt/" target="_blank">
-          <img
-            src="/img/Footer/insta.png"
-            alt="Descrição da imagem"
-            width="300"
-          />
+          <img src="/img/Footer/insta.png" alt="Instagram" width="300" />
         </a>
         <a
           href="https://www.facebook.com/filipemonteiromarketing"
           target="_blank"
         >
-          <img
-            src="/img/Footer/face.png"
-            alt="Descrição da imagem"
-            width="300"
-          />
+          <img src="/img/Footer/face.png" alt="Facebook" width="300" />
         </a>
         <a
           href="https://www.tiktok.com/@leadlabdigitalmkt?_t=8siHufuFb0Q&_r=1"
           target="_blank"
         >
-          <img
-            src="/img/Footer/tiktok.png"
-            alt="Descrição da imagem"
-            width="300"
-          />
+          <img src="/img/Footer/tiktok.png" alt="Tiktok" width="300" />
         </a>
       </li>
       <li class="butao"><ButaoContacto /></li>

@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <img id="home_1" src="/img/home-1.png" alt="" />
+    <img id="home_1" src="/img/Home/home-1.png" alt="" />
     <div class="dark-overlay"></div>
     <div class="overlay-text">
       <div class="txt1">Aceleramos o Crescimento com Marketing Digital</div>

@@ -13,7 +13,11 @@
         <br />na área de marketing
         <div class="txt4">
           Nós ajudamos
-          <img class="check_circle" src="/img/check_circle.png" alt="" />
+          <img
+            class="check_circle"
+            src="/img/Servicos/check_circle.png"
+            alt=""
+          />
         </div>
       </ul>
       <ul>
@@ -22,7 +26,11 @@
         <br />ser acompanhado por profissionais
         <div class="txt4">
           Nós ajudamos
-          <img class="check_circle" src="/img/check_circle.png" alt="" />
+          <img
+            class="check_circle"
+            src="/img/Servicos/check_circle.png"
+            alt=""
+          />
         </div>
       </ul>
       <ul>
@@ -30,7 +38,11 @@
         <br />acompanhamento de uma equipa externa com experiência
         <div class="txt4">
           Nós ajudamos
-          <img class="check_circle" src="/img/check_circle.png" alt="" />
+          <img
+            class="check_circle"
+            src="/img/Servicos/check_circle.png"
+            alt=""
+          />
         </div>
       </ul>
       <ul>
@@ -38,7 +50,11 @@
         <br />ajude a delinear a estratégia de marketing digital
         <div class="txt4">
           Nós ajudamos
-          <img class="check_circle" src="/img/check_circle.png" alt="" />
+          <img
+            class="check_circle"
+            src="/img/Servicos/check_circle.png"
+            alt=""
+          />
         </div>
       </ul>
     </div>
