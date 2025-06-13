@@ -16,7 +16,7 @@
         <div class="linha">
           <ul>
             <li>
-              <div class="img"><img src="/img/11.png" /></div>
+              <div class="img"><img src="/img/11.png" alt="DISCOVERY" /></div>
               <span class="txt_linha">1. DISCOVERY</span>
             </li>
             <li>
@@ -28,7 +28,7 @@
           </ul>
           <ul>
             <li>
-              <div class="img"><img src="/img/12.png" /></div>
+              <div class="img"><img src="/img/12.png" alt="BLUEPRINT" /></div>
               <span class="txt_linha">2. BLUEPRINT</span>
             </li>
             <li>
@@ -42,7 +42,7 @@
         <div class="linha">
           <ul>
             <li>
-              <div class="img"><img src="/img/21.png" /></div>
+              <div class="img"><img src="/img/21.png" alt="EXECUTION" /></div>
               <span class="txt_linha">3. EXECUTION</span>
             </li>
             <li>
@@ -54,7 +54,7 @@
           </ul>
           <ul>
             <li>
-              <div class="img"><img src="/img/22.png" /></div>
+              <div class="img"><img src="/img/22.png" alt="DELIGHT" /></div>
               <span class="txt_linha">4. DELIGHT</span>
             </li>
             <li>
@@ -68,7 +68,7 @@
         <div class="linha">
           <ul>
             <li>
-              <div class="img"><img src="/img/31.png" /></div>
+              <div class="img"><img src="/img/31.png" alt="ANALYTICS" /></div>
               <span class="txt_linha">5. ANALYTICS</span>
             </li>
             <li>
@@ -80,7 +80,9 @@
           </ul>
           <ul>
             <li>
-              <div class="img"><img src="/img/32.png" /></div>
+              <div class="img">
+                <img src="/img/32.png" alt="OPTIMIZATION" />
+              </div>
               <span class="txt_linha">6. OPTIMIZATION</span>
             </li>
             <li>
