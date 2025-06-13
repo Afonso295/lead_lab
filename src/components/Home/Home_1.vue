@@ -1,15 +1,10 @@
 <template>
   <div id="home">
-    <img id="home_1" src="/img/Home/home-1.png" alt="" />
+    <img id="home_1" :src="imagemSrc" alt="" />
     <div class="dark-overlay"></div>
     <div class="overlay-text">
-      <div class="txt1">Aceleramos o Crescimento com Marketing Digital</div>
-      <div class="txt2">
-        Descubra os nossos serviços de marketing digital, mentoria e formação à
-        medida que transformaram a vida de mais de 20.000 profissionais de
-        Portugal e Angola.
-        <ButaoQueroComecar />
-      </div>
+      <div class="txt1">{{ titulo }}</div>
+      <span class="txt2">{{ subtitulo }}<ButaoQueroComecar /></span>
     </div>
   </div>
 </template>
@@ -20,6 +15,21 @@ export default {
   name: "Home_1",
   components: {
     ButaoQueroComecar,
+  },
+  props: {
+    titulo: {
+      type: String,
+      default: "Aceleramos o Crescimento com Marketing Digital",
+    },
+    subtitulo: {
+      type: String,
+      default:
+        "Descubra os nossos serviços de marketing digital, mentoria e formação à medida que transformaram a vida de mais de 20.000 profissionais de Portugal e Angola.",
+    },
+    imagemSrc: {
+      type: String,
+      default: "/img/Home/home-1.png",
+    },
   },
 };
 </script>
@@ -43,7 +53,7 @@ export default {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   pointer-events: none;
-  z-index: 0; /* Camada */
+  z-index: 0;
 }
 
 .overlay-text {

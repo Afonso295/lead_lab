@@ -1,7 +1,16 @@
 <template>
-  <div>Formacao</div>
+  <div>
+    <Formacoes_1 />
+  </div>
 </template>
 
 <script>
-export default {};
+import Formacoes_1 from "@/components/Formacoes/Formacoes_1.vue";
+
+export default {
+  name: "Formacao",
+  components: {
+    Formacoes_1,
+  },
+};
 </script>

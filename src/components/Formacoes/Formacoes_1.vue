@@ -8,16 +8,16 @@
 import Home_1 from "../Home/Home_1.vue";
 
 export default {
-  name: "Servicos",
+  name: "Worshops_1",
   components: {
     Home_1,
   },
   data() {
     return {
-      titulo: "Cresça com quem sabe o caminho",
+      titulo: "Curso em Gestão de Marketing",
       subtitulo:
-        "Crescer exige mais do que tentativa e erro. Conte com quem já fez este caminho na prática e sabe como levá-lo mais longe.",
-      imagemSrc: "/img/Servicos/Lendo-jornal.png",
+        "Conheça as principais etapas da criação e gestão de um departamento de Marketing na nova era do Metamarketing.",
+      imagemSrc: "/img/Gestao-Marketing.png",
     };
   },
 };

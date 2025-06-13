@@ -8,16 +8,16 @@
 import Home_1 from "../Home/Home_1.vue";
 
 export default {
-  name: "Servicos",
+  name: "Worshops_1",
   components: {
     Home_1,
   },
   data() {
     return {
-      titulo: "Cresça com quem sabe o caminho",
+      titulo: "O parceiro certo para o seu crescimento online",
       subtitulo:
-        "Crescer exige mais do que tentativa e erro. Conte com quem já fez este caminho na prática e sabe como levá-lo mais longe.",
-      imagemSrc: "/img/Servicos/Lendo-jornal.png",
+        "Ajudamos marcas a relacionarem-se com os seus potenciais clientes através dos meios digitais. A chave para o nosso sucesso? Nós trazemos o pessoal para o digital.",
+      imagemSrc: "/img/Sobre/Filipe-Margarida.png",
     };
   },
 };
@@ -26,10 +26,10 @@ export default {
 <style scoped>
 #servicos {
   color: aliceblue;
+  background-color: black;
   position: relative;
-  height: 690px;
   width: 100%;
-  height: 520px;
+  height: 510px;
   object-fit: cover;
 }
 </style>

@@ -8,16 +8,15 @@
 import Home_1 from "../Home/Home_1.vue";
 
 export default {
-  name: "Servicos",
+  name: "Worshops_1",
   components: {
     Home_1,
   },
   data() {
     return {
-      titulo: "Cresça com quem sabe o caminho",
-      subtitulo:
-        "Crescer exige mais do que tentativa e erro. Conte com quem já fez este caminho na prática e sabe como levá-lo mais longe.",
-      imagemSrc: "/img/Servicos/Lendo-jornal.png",
+      titulo: "Marketing Digital",
+      subtitulo: "Do Conceito à Execução",
+      imagemSrc: "/img/Workshop-MarketingDigital.png",
     };
   },
 };
