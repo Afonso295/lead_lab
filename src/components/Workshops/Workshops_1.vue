@@ -28,7 +28,6 @@ export default {
   position: relative;
   height: 690px;
   width: 100%;
-  height: 520px;
   object-fit: cover;
 }
 </style>
