@@ -3,6 +3,11 @@
     <router-link to="/"
       ><img id="logo" src="/img/logo.png" alt="LeadLab"
     /></router-link>
+
+    <div class="menu-toggle">
+      <div class="hamburger"></div>
+    </div>
+
     <div id="linknav">
       <router-link to="/">Home</router-link>
       <router-link to="/servicos">Serviços</router-link>
@@ -10,7 +15,9 @@
       <router-link to="/workshops">Workshops</router-link>
       <router-link to="/sobre">Sobre</router-link>
     </div>
-    <ButaoContacto />
+    <div class="contact-button-wrapper">
+      <ButaoContacto />
+    </div>
   </nav>
 </template>
 
@@ -28,15 +35,20 @@ export default {
 #nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: black;
-  padding: 30px;
+  padding: 15px 30px;
   position: relative;
-  height: 6vh;
+  min-height: 60px;
+  width: 100%;
+  box-sizing: border-box;
 }
+
 #nav a {
   color: aliceblue;
   text-decoration: none;
   transition: 0.5s;
+  padding: 5px 0;
 }
 
 #nav a:hover {
@@ -44,21 +56,69 @@ export default {
 }
 
 #logo {
-  height: 5vh;
+  height: 45px;
   width: auto;
-  margin-left: 30px;
-  z-index: 2; /* garante que o logo fica acima */
+  z-index: 10;
   position: relative;
 }
 
 #linknav {
   display: flex;
   font-size: 20px;
-  gap: 80px;
+  gap: 60px;
   justify-content: center;
-  margin-left: -130px;
   flex-grow: 1;
   position: relative;
   z-index: 1;
+  margin-left: -100px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  #linknav {
+    font-size: 18px;
+    gap: 30px;
+    margin-left: -80px;
+  }
+}
+
+@media (max-width: 768px) {
+  #nav {
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+  #linknav {
+    display: none;
+  }
+  .contact-button-wrapper {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+  }
+  .hamburger::before,
+  .hamburger::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  }
+  .hamburger::before {
+    top: -8px;
+  }
+  .hamburger::after {
+    top: 8px;
+  }
 }
 </style>

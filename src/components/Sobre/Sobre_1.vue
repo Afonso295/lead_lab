@@ -32,4 +32,18 @@ export default {
   height: 510px;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  #servicos {
+    height: auto;
+    min-height: 400px;
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #servicos {
+    min-height: 350px;
+  }
+}
 </style>

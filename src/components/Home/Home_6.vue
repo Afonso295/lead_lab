@@ -2,7 +2,9 @@
   <div class="home">
     <div class="txt1">{{ titulo }}</div>
     <span class="txt2">{{ subtitulo }}</span>
-    <ButaoQueroComecar />
+    <div class="button-container">
+      <ButaoQueroComecar />
+    </div>
   </div>
 </template>
 
@@ -10,14 +12,14 @@
 import ButaoQueroComecar from "../Butoes/ButaoQueroComecar.vue";
 
 export default {
-  name: "Home:6",
+  name: "Home_6",
   components: {
     ButaoQueroComecar,
   },
   props: {
     titulo: {
       type: String,
-      default: "Formação à medida",
+      default: "Vamos Falar?",
     },
     subtitulo: {
       type: String,
@@ -33,16 +35,45 @@ export default {
   color: aliceblue;
   text-align: center;
   margin-top: 130px;
-  padding-bottom: 100px;
+  padding: 0 20px 100px 20px;
 }
 .txt1 {
   font-size: 59px;
   font-weight: bold;
+  line-height: 1.2;
 }
 .txt2 {
   font-size: 23px;
-  max-width: 1100px;
+  max-width: 700px;
   display: inline-block;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
+}
+.button-container {
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .home {
+    margin-top: 100px;
+    padding-bottom: 80px;
+  }
+  .txt1 {
+    font-size: 48px;
+  }
+  .txt2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    margin-top: 80px;
+  }
+  .txt1 {
+    font-size: 36px;
+  }
+  .txt2 {
+    font-size: 18px;
+  }
 }
 </style>

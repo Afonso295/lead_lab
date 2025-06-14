@@ -133,7 +133,7 @@ export default {
 .imgul-descricao {
   position: absolute;
   margin-top: 31vh;
-  margin-left: 73vh;
+  margin-left: 83vh;
   text-align: left;
   padding: 8px 12px;
   font-size: 18px;
@@ -159,5 +159,90 @@ export default {
 
 .imgul {
   margin-left: 3vh;
+}
+
+@media (max-width: 1400px) {
+  .imgul-texto,
+  .imgul-descricao {
+    margin-left: 55vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .galeriaimgs {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .galeriaimgs ul {
+    margin-left: 0;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .galeriaimgs li {
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+  }
+  .galeriaimgs img,
+  .imgul {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    margin-left: 0;
+  }
+  .imgul {
+    margin-top: 20px;
+  }
+
+  .txt1,
+  .txt2 {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txt1 {
+    font-size: 48px;
+  }
+  .txt2 {
+    font-size: 20px;
+  }
+
+  .img-texto,
+  .img-descricao,
+  .imgul-texto,
+  .imgul-descricao {
+    position: absolute;
+    margin: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .img-texto,
+  .imgul-texto {
+    bottom: 60px;
+    font-size: 18px;
+    background: none;
+    padding: 0 15px;
+  }
+  .img-descricao,
+  .imgul-descricao {
+    font-size: 16px;
+    bottom: 20px;
+    background: none;
+    padding: 0 15px;
+  }
+
+  .imgcontainer:last-child .img-texto,
+  .imgcontainer:last-child .img-descricao {
+    display: none;
+  }
 }
 </style>

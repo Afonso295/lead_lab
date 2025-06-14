@@ -38,10 +38,12 @@ export default {
 #home {
   color: aliceblue;
   position: relative;
+  width: 100%;
+  height: 510px;
 }
 #home_1 {
   width: 100%;
-  height: 520px;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -59,12 +61,12 @@ export default {
 .overlay-text {
   position: absolute;
   line-height: 1.3;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   font-weight: bold;
-  width: 100%;
+  width: 90%;
   z-index: 2;
   overflow-wrap: break-word;
   max-width: 1200px;
@@ -72,9 +74,30 @@ export default {
 
 .txt1 {
   font-size: 70px;
-  margin-top: 90px;
 }
 .txt2 {
   font-size: 27px;
+}
+
+@media (max-width: 768px) {
+  .txt1 {
+    font-size: 50px;
+  }
+  .txt2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay-text {
+    width: 95%;
+    line-height: 1.4;
+  }
+  .txt1 {
+    font-size: 36px;
+  }
+  .txt2 {
+    font-size: 18px;
+  }
 }
 </style>

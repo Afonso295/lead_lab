@@ -124,73 +124,59 @@ export default {
   display: flex;
   gap: 40px;
   color: aliceblue;
-  padding: 10px;
+  padding: 100px 20px;
   align-items: center;
   flex-wrap: wrap;
-  min-height: 100vh;
-  padding-top: 100px;
-}
-
-/* Coluna da esquerda - texto principal */
-.col-esquerda {
-  flex: 1 1 400px;
-  max-width: 500px;
   justify-content: center;
 }
 
-/* Coluna da direita - tabela */
-.col-direita {
-  flex: 2 1 600px; /* ocupa mais espaço */
-  max-width: 900px;
+.col-esquerda {
+  flex: 1 1 400px;
+  max-width: 450px;
+}
+
+.txt {
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .txt1 {
   font-size: 59px;
   font-weight: bold;
-  text-align: left;
-  max-width: 100%;
-  line-height: 70px;
+  line-height: 1.2;
 }
 
 .txt2 {
   font-size: 23px;
   font-weight: bold;
-  text-align: left;
-  max-width: 100%;
 }
 
-.txt {
-  margin-left: 60px;
-  max-width: 400px;
-  color: aliceblue;
-  margin-top: 10px;
+.col-direita {
+  flex: 2 1 600px;
+  max-width: 900px;
 }
 
 .tabela {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 30px;
-  margin-left: 0;
-  margin-right: 0;
+  gap: 20px;
 }
 
 .linha {
   display: flex;
   gap: 20px;
-  justify-content: flex-start;
-  max-width: 900px;
-  margin-bottom: -30px;
 }
 
 .tabela ul {
-  padding: 40px 30px;
+  padding: 30px;
   border-radius: 20px;
   border: 1px solid rgb(47, 47, 47);
   list-style: none;
-  font-size: 20px;
   flex: 1;
-  margin-right: 30px;
+}
+
+.tabela ul li {
+  list-style: none;
 }
 
 .txt_linha {
@@ -198,23 +184,59 @@ export default {
   color: rgb(0, 255, 136);
   font-weight: bold;
 }
+
 .img {
   display: flex;
-  align-items: flex-start;
-  margin-top: -10px;
+  justify-content: flex-end;
   margin-bottom: 20px;
 }
+
 .img img {
   width: 55px;
   height: 50px;
-  margin-left: 250px;
-  display: flex;
 }
 
 .txt1_linha {
-  font-size: 16.7px;
+  font-size: 16px;
+  line-height: 1.5;
 }
+
 .butao {
-  margin-left: -180px;
+  display: block;
+  margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .col-esquerda {
+    margin-bottom: 40px;
+  }
+  .linha {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .txt1 {
+    font-size: 48px;
+  }
+  .txt2 {
+    font-size: 20px;
+  }
+  .butao {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img {
+    justify-content: center;
+  }
+  .txt_linha,
+  .txt1_linha {
+    text-align: center;
+  }
 }
 </style>
